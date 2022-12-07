@@ -1,0 +1,9 @@
+<ng-template #popTemplate id="commentPopover">
+  <div style="max-height: 6em; overflow: auto" id="divPopover">Test</div>
+  <a href="https://i-am-souravdutta.firebaseapp.com/" target="_blank"
+    >Open my webpage</a
+  >
+</ng-template>
+<span [stickyPopover]="popTemplate" [popoverTitle]="'hell'" placement="bottom">
+  <i class="icon">Hover over me!</i>
+</span>
